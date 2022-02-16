@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc(ponto) (os dois últimos não são muito recomendados)
+
+            Medidas Relativas
+            em (altura do M de uma fonte), ex (altura X de uma fonte), rem, vw (lagura da tela), vh (altura da viewpoert), %
+
+            A recomendação é usar PX e EM
+
+            1em = 16px
+            
+            */
+        }
+        h1 {
+            /*font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            shorthand font
+            - font-style -> font-weight -> fonte-siza -> font-family
+            */
+
+            font: italic bolder 3em Times New Roman, sans-serif;
+        }
+
+        h2 {
+            font: bold 2em Verdana, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo id omnis voluptatem consequatur fugit error repellat dignissimos harum ullam numquam ducimus recusandae ipsam nemo voluptate necessitatibus reiciendis, accusantium architecto consectetur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, quas dignissimos harum quis dolor necessitatibus quo expedita eius. Inventore eveniet perspiciatis veniam nemo numquam, modi odit quae mollitia enim officiis.</p>
+
+    <h2>Subtítulo Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eligendi vel nisi molestias veniam eum veritatis eius reprehenderit expedita numquam molestiae, porro ipsa et neque asperiores excepturi? Vel, rem ea.</p>
+</body>
+</html>
