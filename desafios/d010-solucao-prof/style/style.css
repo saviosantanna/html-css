@@ -29,6 +29,7 @@
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    margin: -1px;
 }
 
 a.externo::after {
@@ -40,6 +41,7 @@ header {
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
+    margin: 0%;
 }
 
 header > h1 {
@@ -55,12 +57,12 @@ header > p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.377);
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 nav {
